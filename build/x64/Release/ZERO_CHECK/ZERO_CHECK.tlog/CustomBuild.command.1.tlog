@@ -1,0 +1,10 @@
+^C:\USERS\USER\DOCUMENTS\GITHUB\GM_C\PROJECT\BUILD\CMAKEFILES\3640E12EF72199E6FD1BCBC98F649422\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/user/Documents/GitHub/gm_c/PROJECT -BC:/Users/user/Documents/GitHub/gm_c/PROJECT/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/user/Documents/GitHub/gm_c/PROJECT/build/FFTVisualizer.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,3 @@
+C:/Users/user/Documents/GitHub/gm_c/PROJECT/build/CMakeFiles/fft_visualizer.dir
+C:/Users/user/Documents/GitHub/gm_c/PROJECT/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/user/Documents/GitHub/gm_c/PROJECT/build/CMakeFiles/ZERO_CHECK.dir
